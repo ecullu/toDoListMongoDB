@@ -8,3 +8,71 @@ h1 {
 	text-align: center;
 	color: fuchsia;
 }
+
+#header{
+	display: flex;
+    flex-direction: column;
+    background-color: #e1e8f0;
+    align-content: center;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+#app-title{
+	font-size: 2em;
+    padding: 0.5em;
+    color: #e62739;
+    background-color: snow;
+    width: 80%;
+    border-radius: 1em;
+    border: 1px #ddd solid;
+    margin: auto;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+    a {
+    	text-decoration: none;
+    	cursor: pointer;
+	    letter-spacing: 0.2em;
+	    color: #85144b;
+	    font-weight: 700;
+    }
+}
+
+div#list-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#task-title-bar{
+	display: flex;
+}
+
+#task-title-bar > *{
+    width: 25%;
+    text-align: center
+}
+
+.task-box{
+	display: flex;
+}
+
+.task-box >div {
+    width: 25%;
+    text-align:center;
+}
+
+.delete-button{
+    margin-left: 25%;
+}
+
+.status-box{
+    margin-left: 50%;
+}
